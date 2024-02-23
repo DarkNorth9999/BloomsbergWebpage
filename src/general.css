@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.heading-secondary{
+   font-size:3rem;
+}
+
+.heading-fourth{
+  font-size:2.5rem;
+}
+
+.heading-fifth{
+  font-size:1.5rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-ternary{
+    font-size: 2rem;
+}
+
+.border{
+    border: solid 5px black;
+}
+
+.slash-list{
+    list-style-type: "/ ";
+    display:flex;
+    gap:15px;
+}
+
+.slash-list li:first-child{
+    list-style-type:none;
+}
+
+.row-flex{
+    display: flex;
+}
+
+.column-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 120rem;
+    padding: 2.5rem 6.4rem;
+    margin: 0 auto; 
+}
+
+.grid{
+    display: grid;
+    /* column-gap: 6.4rem;
+  row-gap: 9.6rem; */
+} 
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* .grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+  } */
+  
+  .grid--center-v {
+    align-items: center;
+  }
+
+  .grid--center-h{
+    justify-content: center;
+  }
+
+
+  .margin-bottom{
+    margin-bottom: 2rem;
+  }
+
+
+  .major-margin{
+    margin: 0 10rem;
+  }
+/**************/
+/**Top April**/
+/************/
+

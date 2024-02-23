@@ -1,0 +1,237 @@
+@media only screen and (min-width: 550px) {
+    .features-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dress-div{
+        order:0;
+    }
+
+    html{
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+
+    .ask-april-flex{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        width: 100%;
+        transform: scale(0.8);
+    }
+
+    .main-nav-bar{
+        grid-template-columns: 3fr 3fr 1fr;
+    }
+
+    .social-nav-bar-1{
+        display: block;
+        transform: scale(0.8);
+    }
+
+
+    /* .outer-circle{
+        content: "";
+        position: absolute;
+    
+    
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        border-top:0.3125rem  solid transparent;
+        border-bottom:0.3125rem  solid transparent;
+        border-left:0.3125rem  solid red ;
+        border-right:0.3125rem  solid red ;
+        padding: 10.5rem 10.5rem;
+        
+        border-radius: 50%;
+    } */
+    
+    .blue-circle{
+        content: "";
+        position: absolute;
+    
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%) rotate(-32deg);
+        border-top:0.3125rem  solid transparent;
+        border-bottom:0.3125rem solid transparent;
+        border-left:0.3125rem dotted blue  ;
+        border-right:0.3125rem  dotted blue ;
+        padding: 7.5rem 7.5rem;
+        
+        border-radius: 50%;
+        z-index: 2;
+    }
+    
+    .blue-circle-1{
+        transform: translate(-50%,-50%) rotate(-32deg);
+    }
+    
+    
+    .blue-circle-2{
+        transform: translate(-50%,-50%) rotate(30deg);
+    }
+
+    .section-info{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-info div:nth-last-child(2){
+        order:0;
+    }
+
+    .second-card{
+        flex-direction: row;
+    }
+
+    .services-container{
+        gap:6.4rem;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px) {
+
+    html{
+        font-size: 100%;
+    }
+
+    .top{
+        justify-content:end;
+    }
+
+
+    .membership-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .btn-mobile-nav {
+        border: none;
+        background: none;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .icon-mobile-nav[name="close-outline"] {
+        display: none;
+    }
+    
+    .icon-mobile-nav {
+        height: 4.8rem;
+        width: 4.8rem;
+        color: #333;
+    }
+
+    .nav-bottom{
+        display: flex;
+        justify-content:space-evenly;
+        list-style: none;
+        background-color: #F6F9E8;
+        padding: 0.4rem 0;
+    }
+
+    .social-nav-bar{
+        display: block;
+    }
+
+    .main-nav-bar{
+        grid-template-columns: 2fr 2fr 0.5fr;    
+    }
+
+
+
+    /* Ai tagging content */
+    .blue-circle{
+        content: "";
+        position: absolute;
+    
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%) rotate(-32deg);
+        border-top:0.3125rem  solid transparent;
+        border-bottom:0.3125rem solid transparent;
+        border-left:0.3125rem dotted blue  ;
+        border-right:0.3125rem  dotted blue ;
+        padding: 5rem 5rem;
+        
+        border-radius: 50%;
+        z-index: 2;
+    }
+    
+    .blue-circle-1{
+        transform: translate(-50%,-50%) rotate(-32deg);
+    }
+    
+    
+    .blue-circle-2{
+        transform: translate(-50%,-50%) rotate(30deg);
+    }
+
+    .features-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .feature-list{
+        list-style: none;
+        align-items: start;
+    }
+    
+    .feature-list:first-child{
+        align-items: end;
+    }
+
+    /* Ai tagging content */
+    
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .services-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .second-card{
+        flex-direction: column;
+    }
+
+    .div-our-services{
+        position: absolute;
+        top:0;
+       left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .first-card{
+        flex-direction: row;
+        gap:0;
+    }
+    
+}
+
+@media only screen and (min-width: 1500px) {
+
+    /* .outer-circle{
+        content: "";
+        position: absolute;
+    
+    
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        border-top:0.3125rem  solid transparent;
+        border-bottom:0.3125rem  solid transparent;
+        border-left:0.3125rem  solid red ;
+        border-right:0.3125rem  solid red ;
+        padding: 7rem 7rem;
+        
+        border-radius: 50%;
+    } */
+    
+    
+}
