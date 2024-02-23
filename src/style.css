@@ -13,6 +13,14 @@
     gap:1rem;
 }
 
+.five-display-none{
+    display: none;
+}
+
+.five-display-none p{
+    color:white;
+}
+
 .social-nav-bar{
     display: none;
 }

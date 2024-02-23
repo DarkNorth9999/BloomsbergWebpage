@@ -1,4 +1,10 @@
 @media only screen and (min-width: 550px) {
+
+    .five-display-none{
+        display: flex;
+    }
+
+
     .features-container{
         grid-template-columns: 1fr 1fr;
     }
