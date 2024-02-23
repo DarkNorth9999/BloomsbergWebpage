@@ -10,6 +10,18 @@
     html{
         font-size: 80%;
     }
+
+    .footer{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem;
+        align-items: center;
+    }
+
+    .copyright-terms{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -50,31 +62,7 @@
         border-radius: 50%;
     } */
     
-    .blue-circle{
-        content: "";
-        position: absolute;
-    
-        left: 50%;
-        top:50%;
-        transform: translate(-50%,-50%) rotate(-32deg);
-        border-top:0.3125rem  solid transparent;
-        border-bottom:0.3125rem solid transparent;
-        border-left:0.3125rem dotted blue  ;
-        border-right:0.3125rem  dotted blue ;
-        padding: 7.5rem 7.5rem;
-        
-        border-radius: 50%;
-        z-index: 2;
-    }
-    
-    .blue-circle-1{
-        transform: translate(-50%,-50%) rotate(-32deg);
-    }
-    
-    
-    .blue-circle-2{
-        transform: translate(-50%,-50%) rotate(30deg);
-    }
+
 
     .section-info{
         grid-template-columns: 1fr 1fr;
@@ -145,31 +133,20 @@
 
 
     /* Ai tagging content */
-    .blue-circle{
-        content: "";
-        position: absolute;
-    
-        left: 50%;
-        top:50%;
-        transform: translate(-50%,-50%) rotate(-32deg);
-        border-top:0.3125rem  solid transparent;
-        border-bottom:0.3125rem solid transparent;
-        border-left:0.3125rem dotted blue  ;
-        border-right:0.3125rem  dotted blue ;
-        padding: 5rem 5rem;
-        
-        border-radius: 50%;
-        z-index: 2;
-    }
-    
     .blue-circle-1{
+        padding: 2.5rem 2.5rem;
         transform: translate(-50%,-50%) rotate(-32deg);
     }
-    
-    
+
     .blue-circle-2{
-        transform: translate(-50%,-50%) rotate(30deg);
+        padding: 2.5rem 2.5rem;
+        transform: translate(-50%,-50%) rotate(35deg);
     }
+
+    .outer-circle{
+        padding: 4.5rem 4.5rem;
+    }
+    
 
     .features-container{
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -216,22 +193,19 @@
 
 @media only screen and (min-width: 1500px) {
 
-    /* .outer-circle{
-        content: "";
-        position: absolute;
-    
-    
-        left: 50%;
-        top:50%;
-        transform: translate(-50%,-50%);
-        border-top:0.3125rem  solid transparent;
-        border-bottom:0.3125rem  solid transparent;
-        border-left:0.3125rem  solid red ;
-        border-right:0.3125rem  solid red ;
+    .blue-circle-1{
+        padding: 5rem 5rem;
+        transform: translate(-50%,-50%) rotate(-32deg);
+    }
+
+    .blue-circle-2{
+        padding: 5rem 5rem;
+        transform: translate(-50%,-50%) rotate(30deg);
+    }
+
+    .outer-circle{
         padding: 7rem 7rem;
-        
-        border-radius: 50%;
-    } */
+    }
     
     
 }
