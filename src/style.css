@@ -659,6 +659,10 @@
     /* justify-self: center; */
 }
 
+.membership-image-content p{
+    color: white;
+}
+
 /**************************/
 /* FOOTER */
 /**************************/
